@@ -18,7 +18,7 @@ Here it is: https://github.com/TodePond/GulfOfMexico/blob/main/res/res/Examples.
 Gulf of Mexico is a perfect programming language. These are its features!<br>
 When you've finished reading through all the features, check out the [examples](https://github.com/TodePond/GulfOfMexico/blob/main/Examples.md).
 
-## Exclamation Marks!
+## Exclamation Marks! -- disliked
 
 Be bold! End every statement with an exclamation mark!
 
@@ -46,7 +46,7 @@ if (;false) {
 }
 ```
 
-## Declarations
+## Declarations -- some liked
 
 There are four types of declaration. Constant constants can't be changed in any way.
 
@@ -78,7 +78,7 @@ name.push("k")!
 name.push("e")!
 ```
 
-## Immutable Data
+## Immutable Data -- disliked
 
 **New for 2023!**<br>
 Mutable data is an anti-pattern. Use the `const const const` keyword to make a constant constant constant. Its value will become constant and immutable, and will _never change_. Please be careful with this keyword, as it is very powerful, and will affect all users globally forever.
@@ -87,7 +87,7 @@ Mutable data is an anti-pattern. Use the `const const const` keyword to make a c
 const const const pi = 3.14!
 ```
 
-## Naming
+## Naming -- liked
 
 Both variables and constants can be named with any Unicode character or string.
 
@@ -104,7 +104,7 @@ const const 5 = 4!
 print(2 + 2 === 5)! //true
 ```
 
-## Arrays
+## Arrays -- semi liked
 
 Some languages start arrays at `0`, which can be unintuitive for beginners. Some languages start arrays at `1`, which isn't representative of how the code actually works. Gulf of Mexico does the best of both worlds: Arrays start at `-1`.
 
@@ -124,7 +124,7 @@ scores[0.5] = 4!
 print(scores)! //[3, 2, 4, 5]
 ```
 
-## When
+## When -- liked
 
 In case you really need to vary a variable, the `when` keyword lets you check a variable each time it mutates.
 
@@ -135,7 +135,7 @@ when (health = 0) {
 }
 ```
 
-## Lifetimes
+## Lifetimes -- liked
 
 Gulf of Mexico has a built-in garbage collector that will automatically clean up unused variables. However, if you want to be extra careful, you can specify a lifetime for a variable, with a variety of units.
 
@@ -157,11 +157,11 @@ print(name)! //Luke
 const const name<-1> = "Luke"!
 ```
 
-## Loops
+## Loops -- disliked
 
 Loops are a complicated relic of archaic programming languages. In GulfOfMexico, there are no loops.
 
-## Installation
+## Installation -- disliked, it should be actually usable
 
 To install Gulf of Mexico to your command line, first install the Gulf of Mexico installer.<br>
 To install the Gulf of Mexico installer, install the Gulf of Mexico installer installer.
@@ -169,7 +169,7 @@ To install the Gulf of Mexico installer, install the Gulf of Mexico installer in
 **New for 2022!**<br>
 Due to the complicated installation process, you can now install the 'Create Gulf of Mexico App' app that installs everything for you!
 
-## Booleans
+## Booleans -- liked
 
 Booleans can be `true`, `false` or `maybe`.
 
@@ -186,9 +186,9 @@ function isKeyDown(key) => {
 }
 ```
 
-**Technical info:** Booleans are stored as one-and-a-half bits.
+**Technical info:** Booleans are stored as one-and-a-half bits. -- diliked
 
-## Arithmetic
+## Arithmetic -- semi liked
 
 Gulf of Mexico has significant whitespace. Use spacing to specify the order of arithmetic operations.
 
@@ -209,7 +209,7 @@ You can also use number names.
 print(one + two)! //3
 ```
 
-## Indents
+## Indents -- both work -- liked
 
 When it comes to indentation, Gulf of Mexico strikes a happy medium that can be enjoyed by everyone: All indents must be 3 spaces long.
 
@@ -227,7 +227,7 @@ print("Gulf of Mexico is the future")!
    }
 ```
 
-## Equality
+## Equality -- liked
 
 JavaScript lets you do different levels of comparison. `==` for loose comparison, and `===` for a more precise check. Gulf of Mexico takes this to another level.
 
@@ -258,7 +258,7 @@ If you want to be much less precise, you can use `=`.
 3 = 3.14! //true
 ```
 
-## Functions
+## Functions -- liked
 
 To declare a function, you can use any letters from the word `function` (as long as they're in order):
 
@@ -271,7 +271,7 @@ functi power(a, b) => a ^ b!
 f inverse(a) => 1/a!
 ```
 
-## Dividing by Zero
+## Dividing by Zero -- disliked (return -1)
 
 Dividing by zero returns `undefined`.
 
@@ -279,7 +279,7 @@ Dividing by zero returns `undefined`.
 print(3 / 0)! //undefined
 ```
 
-## Strings
+## Strings -- liked
 
 Strings can be declared with single quotes or double quotes.
 
@@ -301,13 +301,13 @@ In fact, you can use any number of quotes you want.
 const const name = """"Luke""""!
 ```
 
-Even zero.
+Even zero. -- with the String type
 
 ```java
 const const name = Luke!
 ```
 
-## String Interpolation
+## String Interpolation -- all currencies
 
 Please remember to use your regional currency when interpolating strings.
 
@@ -324,7 +324,7 @@ And make sure to follow your local typographical norms.
 print("Hello {name}€!")!
 ```
 
-The symbol for the Cape Verdean escudo is placed in the decimal separator position, as in 2$50.
+The symbol for the Cape Verdean escudo is placed in the decimal separator position, as in 2$50. -- disliked
 Developers from the Republic of Cape Verde can benefit from this syntax.
 
 ```java
@@ -334,19 +334,19 @@ print("Hello {player$name}!")!
 
 ## Types
 
-Type annotations are optional.
+Type annotations are optional. -- disliked
 
 ```java
 const var age: Int = 28!
 ```
 
-By the way, strings are just arrays of characters.
+By the way, strings are just arrays of characters. -- liked
 
 ```java
 String == Char[]!
 ```
 
-Similarly, integers are just arrays of digits.
+Similarly, integers are just arrays of digits. -- liked
 
 ```java
 Int == Digit[]!
@@ -358,7 +358,7 @@ In case you want to use a binary representation for integers, `Int9` and `Int99`
 const var age: Int9 = 28!
 ```
 
-**Technical info:** Type annotations don't do anything, but they help some people to feel more comfortable.
+**Technical info:** Type annotations don't do anything, but they help some people to feel more comfortable. -- disliked
 
 ## Regular Expressions
 
