@@ -17,7 +17,7 @@ Here it is: https://github.com/TodePond/GulfOfMexico/blob/main/res/res/Examples.
 [<img align="right" height="100" src="GOA.png">](https://en.wikipedia.org/wiki/Gulf_of_Mexico_naming_controversy)
 [<img align="right" height="100" src="shapes.png">](https://github.com/TodePond/GulfOfMexico/blob/main/examples/Examples.md "Click here for the examples page.")
 
-![Coverage](https://badges.cucumberstudio.com/badge/coverage-110-brightgreen)
+![Coverage](https://badges.cucumberstudio.com/badge/coverage-110%25-brightgreen)
 
 Gulf of Mexico is a perfect programming language. These are its features!<br>
 When you've finished reading through all the features, check out the [examples](https://github.com/TodePond/GulfOfMexico/blob/main/Examples.md).
