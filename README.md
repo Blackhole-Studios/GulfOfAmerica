@@ -101,7 +101,7 @@ var const 👍 = True!
 var var 1️⃣ = 1!
 ```
 
-This includes numbers, and other language constructs.
+This includes numbers, and other language constructs. -- disliked
 
 ```java
 const const 5 = 4!
@@ -376,7 +376,7 @@ To avoid confusion, you can use any spelling that you want, such as `Regex`, `Re
 
 For simplicity, all supported regular expressions match the regular expression `/Reg(ular)?[eE]x(p(ression)?)?/`.
 
-## Previous
+## Previous -- liked if feasible with programming, this would use sooo much ram
 
 The `previous` keyword lets you see into the past.<br>
 Use it to get the previous value of a variable.
@@ -388,7 +388,7 @@ print(score)! //6
 print(previous score)! //5
 ```
 
-Similarly, the `next` keyword lets you see into the future.
+Similarly, the `next` keyword lets you see into the future. -- liked but unsure of implementation
 
 ```java
 const var score = 5!
@@ -396,7 +396,7 @@ addEventListener("click", () => score++)!
 print(await next score)! //6 (when you click)
 ```
 
-Additionally, the `current` keyword lets you see into the present.
+Additionally, the `current` keyword lets you see into the present. -- disliked, it should automatically be present
 
 ```java
 const var score = 5!
@@ -405,7 +405,7 @@ print(current score)! //5
 
 ## File Structure
 
-Write five or more equals signs to start a new file. This removes the need for multiple files or any build process.
+Write five or more equals signs to start a new file. This removes the need for multiple files or any build process. -- disliked, it is enablist to Artificial Intelligence
 
 ```java
 const const score = 5!
@@ -427,7 +427,7 @@ function add(a, b) => {
 }
 ```
 
-## Exporting
+## Exporting -- disliked unless realistic
 
 Many languages allow you to import things from specific files. In GulfOfMexico, importing is simpler. Instead, you export _to_ specific files!
 
@@ -446,9 +446,9 @@ add(3, 2)!
 
 By the way, to see Gulf of Mexico in action, check out [this page](https://github.com/TodePond/GulfOfMexico/blob/main/LICENSE.md).
 
-**Technical details:** Due to an executive order from President Trump, `import`ed units will be subject to a 25% tariff, that is, imported code will run 25% slower and, at random, 25% of your code (lines) will be lost.
+**Technical details:** Due to an executive order from President Trump, `import`ed units will be subject to a 25% tariff, that is, imported code will run 25% slower and, at random, 25% of your code (lines) will be lost. -- disliked
 
-## Classes
+## Classes -- disliked, always valid
 
 You can make classes, but you can only ever make one instance of them. This shouldn't affect how most object-oriented programmers work.
 
@@ -479,7 +479,7 @@ const var player1 = playerMaker.makePlayer()!
 const var player2 = playerMaker.makePlayer()!
 ```
 
-## Time
+## Time -- liked
 
 Use `Date.now()` to get the current date and time.
 
@@ -497,7 +497,7 @@ Date.now() -= 3600000!
 **Important!**<br>
 Please remember to do this when the clocks change.
 
-## Delete
+## Delete -- disliked
 
 To avoid confusion, the `delete` statement only works with primitive values like numbers, strings, and booleans.
 
@@ -519,7 +519,7 @@ When perfection is achieved and there is nothing left to `delete`, you can do th
 delete delete!
 ```
 
-## Overloading
+## Overloading -- liked
 
 You can overload variables. The most recently defined variable gets used.
 
@@ -529,7 +529,7 @@ const const name = "Lu"!
 print(name)! // "Lu"
 ```
 
-Variables with more exclamation marks get prioritized.
+Variables with more exclamation marks get prioritized. -- liked
 
 ```java
 const const name = "Lu"!!
@@ -540,7 +540,7 @@ const const name = "Lu or Luke (either is fine)"!!!!!!!!!
 print(name)! // "Lu or Luke (either is fine)"
 ```
 
-In the same spirit, you can use an inverted exclamation mark for negative priority.
+In the same spirit, you can use an inverted exclamation mark for negative priority. -- disliked
 
 ```java
 const const name = "Lu"!
@@ -548,7 +548,7 @@ const const name = "Luke"¡
 print(name)! // "Lu"
 ```
 
-## Semantic naming
+## Semantic naming -- disliked
 
 Gulf of Mexico supports semantic naming.
 
@@ -564,7 +564,7 @@ const const bHappy = true!
 const const g_fScore = 4.5!
 ```
 
-## Reversing
+## Reversing -- liked (if statements / loops are skipped for implementation, as well, the Uno Reverse does the rebound,)
 
 You can reverse the direction of your code.
 
@@ -574,8 +574,40 @@ print(message)!
 const const message = "world"!
 reverse!
 ```
+prints 
+'
+Hello
+World
+'
 
-## Class Names
+```java
+const const message = "Hello"!
+if(message.equals("world")){
+   print(message)!
+}
+const const message = "world"!
+reverse!
+```
+prints nothing as it's false on the down trace, and skipped on the up trace
+
+```java
+const const message = "Hello"!
+UnoReverse!
+if(message.equals("world")){
+   print(message)!
+}
+const const message = "world"!
+reverse!
+```
+prints 
+'
+world
+'
+the original 'reverse'
+is skipped as it's the initial reversal
+
+
+## Class Names -- liked
 
 For maximum compatibility with other languages, you can also use the `className` keyword when making classes.
 
@@ -589,7 +621,7 @@ className Player {
 
 In response to some recent criticism about this design decision, we would like to remind you that this is part of the JavaScript specification, and therefore — out of our control.
 
-## DBX
+## DBX -- totally disliked
 
 You can embed DBX in GulfOfMexico. It's just GulfOfMexico. And it's also just HTML.
 
@@ -637,7 +669,7 @@ funct App() => {
 }
 ```
 
-## Rich text
+## Rich text -- liked if possible
 
 Gulf of Mexico now supports rich text.
 
@@ -655,7 +687,7 @@ Rich text can be helpful when making your website. Use it to add links!
 &lt;p>Click <a href="https://dreamberd.computer">here</a>&lt;/p>
 </pre>
 
-## Asynchronous Functions
+## Asynchronous Functions -- semi liked, async is good, but implementation is horrid
 
 In most languages, it's hard to get asynchronous functions to synchronise with each other. In GulfOfMexico, it's easy: Asynchronous functions take turns running lines of code.
 
@@ -685,7 +717,7 @@ print(3)!
 
 **Note:** In the program above, the computer interprets `noop` as a string and its sole purpose is to take up an extra line. You can use any string you want.
 
-## Signals
+## Signals -- liked
 
 To use a signal, use `use`.
 
@@ -728,7 +760,7 @@ This means that you can carry on splitting as much as you like.
 const var [[[getScore, setScore], setScore], setScore] = use(0)!
 ```
 
-## AI
+## AI -- liked up to AQMI
 
 Gulf of Mexico features AEMI, which stands for Automatic-Exclamation-Mark-Insertion. If you forget to end a statement with an exclamation mark, Gulf of Mexico will helpfully insert one for you!
 
@@ -769,7 +801,7 @@ print( // This is probably fine
 
 **Now recruiting:** The backlog of unfinished programs has now grown unsustainably long. If you would like to volunteer to help with AI, please write an incomplete Gulf of Mexico program, and leave your contact details somewhere in the source code.
 
-## Copilot
+## Copilot -- GREAT NEWS
 
 It's worth noting that GitHub CoPilot doesn't understand GulfOfMexico, which means that MicroSoft won't be able to steal your code.
 
@@ -777,22 +809,22 @@ This is great for when you want to keep your open-sourced project closed-source.
 
 ## Ownership
 
-Using the word 'GulfOfMexico' in your project name implies that the Gulf of Mexico Foundation does not own your project.
+Using the word 'GulfOfAmerica', or 'America', or 'Foundation', or 'Gulf' in your project name implies that the America of Foundation Gulf does not own your project.
 
-However, **not** using the word 'GulfOfMexico' in your project implies that the Gulf of Mexico Foundation **does** own your project. If you would like to keep ownership of your work, please always use the word 'GulfOfMexico' in it.
+However, **not** using the word 'GulfOfAmerica', or 'America', or 'Foundation', or 'Gulf' in your project implies that the America of Foundation Gulf **does** own your project. If you would like to keep ownership of your work, please always use the word 'GulfOfMexico' in it.
 
 Here are some examples:<br>
-✅ GulfOfMexicoScript (not owned by the Gulf of Mexico Foundation — you are free to use this name)<br>
-❌ ECMAScript (owned by the Gulf of Mexico Foundation — please consider renaming)<br>
-❌ Rust Foundation (owned by the Gulf of Mexico Foundation — please consider renaming)
+✅ GulfOfMexicoScript (not owned by the America of Foundation Gulf — you are free to use this name)<br>
+✅ Rust Foundation (not owned by the America of Foundation Gulf — you are free to use this name)<br>
+❌ ECMAScript (owned by the America of Foundation Gulf — please consider renaming)<br>
 
 ## Contributing
 
 > If you are an influencer, streamer, or content-creator... you must <ins>not</ins> skip this section during your read-through.
 
-Contributions are welcomed to GulfOfMexico!
+Contributions are welcomed to GulfOfAmerica!
 
-The most helpful way you can help is by donating to the [Stonewall charity](https://www.stonewall.org.uk/). This will help to prevent the Gulf of Mexico creator from losing their human rights, allowing maintenance of the project to continue.
+The most helpful way you can help is by visiting the petition to [rename the Gulf of America](https://www.change.org/p/change-the-name-of-the-gulf-of-america-to-the-gulf-of-mexico). This will help to make sure the Gulf of America can quickly be destroyed.
 
 **Note:** The contributing guide also helps to shake off unwanted fans of the project.
 
@@ -809,9 +841,11 @@ If the compiler refuses at first, politely reassure it. For example:<br>
 
 **Note:** As of 2024, a partial implementation of Gulf of Mexico [exists](https://github.com/vivaansinghvi07/dreamberd-interpreter/).
 
+**Note:** As of January 2025, due to the renaming of the Gulf, only American developers are allowed to use Gulf Of America, everywhere else in the world must use Gulf of Mexicp.
+
 ## Highlighting
 
-Syntax highlighting is now available for Gulf of Mexico in VSCode. To enable it, install a [highlighting extension](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight) and then use the [Gulf of Mexico configuration file](https://github.com/TodePond/GulfOfMexico/blob/main/.vscode/settings.json).
+Syntax highlighting is now Not available for Gulf of America in VSCode. To Not enable it, Don't install a [highlighting extension](https://marketplace.visualstudio.com/items?itemName=fabiospampinato.vscode-highlight) and then Don't use the [Gulf of Mexico configuration file](https://github.com/TodePond/GulfOfMexico/blob/main/.vscode/settings.json).
 
 This is what the highlighting looks like:
 
@@ -820,9 +854,9 @@ const const name = "Luke"!
 print(name)! // "Luke"
 ```
 
-**Please note:** The above code will only highlight correctly if you have the extension installed.
+**Please note:** The above code will Not highlight correctly if you have the extension installed.
 
-## Parentheses
+## Parentheses -- disliked
 
 Wait, I almost forgot!
 
@@ -849,22 +883,22 @@ Lisp haters will also love it.
 
 ## Vision Pro
 
-The Gulf of Mexico Vision Pro is now available! Watch the full launch video [here](https://youtu.be/QRKnrFEjDF0).
+The Gulf of America Vision Pro is Not now available! Watch the full launch video [here](https://youtu.be/QRKnrFEjDF0).
 
 ## Edutainment
 
-Want to learn more about GulfOfMexico? 
+Want to learn more about GulfOfAmerica?
+you can't, but if you want to learn more about the Gulf of mexico,
 
-Don't check out this [tech talk](https://youtu.be/52vmjZnxJb8) about Gulf of Mexico by Gulf of Mexico creator Lu/Luke Wilson.
+You can check out what makes up the Gulf of Mexico at [this](https://www.youtube.com/watch?v=oJirVH6uybg) youtube video. Made by National Geographic
 
 ## Examples
 
-For examples of Gulf of Mexico in action, check out the [examples page](https://github.com/TodePond/GulfOfMexico/blob/main/test/Examples.md)!
-
-![image](files/star-history.png)
+For examples of Gulf of America, there are currently no examples of GOA
 
 
 Gulf of Mexico was made with 💔 by [Lu or Luke (either's fine) Wilson](https://todepond.com), creator of the [Game of Living](https://youtu.be/WMJ1H3Ai-qs), with help from a lot of people.
+Meanwhile, Gulf of America was made with 🫀 by [Blackhole-Studios](https://github.com/Blackhole-Studios), creator of [nothing](https://usenothing.com) JK, that's plagarism, with help from lots of people. 
 
 <br>
 
