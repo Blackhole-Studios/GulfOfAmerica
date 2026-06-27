@@ -12,9 +12,9 @@ Here it is: https://github.com/TodePond/GulfOfMexico/blob/main/res/res/Examples.
 > **New:** [Gulf of Mexico](https://github.com/TodePond/GulfOfMexico) has been forked to [Gulf of America](https://github.com/Blackhole-Studios/GulfOfAmerica)
 
 [<img align="right" height="100" src="shapes.png">](https://github.com/TodePond/GulfOfMexico/blob/main/examples/Examples.md "Click here for the examples page.")
-[<img align="right" height="100" src="shapes.png">](https://github.com/TodePond/GulfOfMexico/blob/main/examples/Examples.md "Click here for the examples page.")
+[<img align="right" height="100" src="GOA.png">](https://en.wikipedia.org/wiki/Gulf_of_Mexico_naming_controversy)
 
-# Gulf of America
+# Gulf of America (Not the Gulf Of Mexico anymore)
 
 ![Coverage](badges/coverage-109.svg)
 
