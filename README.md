@@ -11,12 +11,13 @@ Here it is: https://github.com/TodePond/GulfOfMexico/blob/main/res/res/Examples.
 
 > **New:** [Gulf of Mexico](https://github.com/TodePond/GulfOfMexico) has been forked to [Gulf of America](https://github.com/Blackhole-Studios/GulfOfAmerica)
 
-[<img align="right" height="100" src="shapes.png">](https://github.com/TodePond/GulfOfMexico/blob/main/examples/Examples.md "Click here for the examples page.")
+
 
 # Gulf of America (Not the Gulf Of Mexico anymore)
 [<img align="right" height="100" src="GOA.png">](https://en.wikipedia.org/wiki/Gulf_of_Mexico_naming_controversy)
+[<img align="right" height="100" src="shapes.png">](https://github.com/TodePond/GulfOfMexico/blob/main/examples/Examples.md "Click here for the examples page.")
 
-![Coverage](badges/coverage-110.svg)
+![Coverage](https://badges.cucumberstudio.com/badge/coverage-110-brightgreen)
 
 Gulf of Mexico is a perfect programming language. These are its features!<br>
 When you've finished reading through all the features, check out the [examples](https://github.com/TodePond/GulfOfMexico/blob/main/Examples.md).
